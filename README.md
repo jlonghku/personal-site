@@ -14,7 +14,7 @@ Both deployments publish the same files from `public/`. Vercel deploys through t
 ## Highlights
 
 - Research themes in ecohydrological modelling, urban flooding, water quality, and environmental AI
-- Selected projects, publications, experience, teaching, service, and honours
+- Selected projects, publications, experience, teaching, and service
 - Links to PolyU, Google Scholar, ORCID, and GitHub
 
 ## Structure
