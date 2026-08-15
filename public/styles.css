@@ -110,7 +110,7 @@ h1 { margin-bottom: 18px; font-family: var(--serif); font-size: clamp(3.8rem, 8v
 .contact { padding-block: 88px; background: #183b49; color: white; }
 .contact-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 90px; align-items: start; }
 .contact .section-label { color: #9ec4d3; margin-bottom: 24px; }
-.contact h2 { margin-bottom: 22px; }
+.contact h2 { max-width: 620px; margin-bottom: 22px; font-size: clamp(2rem, 3.2vw, 2.75rem); }
 .contact-grid > div > p:last-child { max-width: 620px; margin: 0; color: rgba(255,255,255,.7); font-size: .9rem; }
 .contact-card { padding: 28px; border: 1px solid rgba(255,255,255,.3); }
 .email-link { display: inline-block; margin-bottom: 28px; color: white; font-family: var(--serif); font-size: clamp(1.2rem, 2.2vw, 1.8rem); border-bottom: 1px solid #9ec4d3; }
