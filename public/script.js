@@ -19,3 +19,15 @@ mobileNav?.querySelectorAll("a").forEach((link) => {
 });
 
 document.getElementById("year").textContent = new Date().getFullYear();
+
+const siteHeader = document.querySelector(".site-header");
+const backToTop = document.querySelector(".back-to-top");
+
+const updateScrollState = () => {
+  const hasScrolled = window.scrollY > 80;
+  siteHeader?.classList.toggle("is-scrolled", hasScrolled);
+  backToTop?.classList.toggle("is-visible", window.scrollY > 600);
+};
+
+window.addEventListener("scroll", updateScrollState, { passive: true });
+updateScrollState();

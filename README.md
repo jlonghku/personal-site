@@ -5,6 +5,7 @@ Personal academic website for Dr Long Jiang, Research Assistant Professor in the
 ## Content
 
 - Research themes in ecohydrological modelling, urban flooding, water quality, and environmental AI
+- Categorized technical expertise and selected honours
 - Selected research projects and publications
 - Academic experience, teaching, professional service, and contact details
 - Links to PolyU, Google Scholar, ORCID, and GitHub profiles
@@ -29,5 +30,3 @@ Import this GitHub repository in Vercel. The included `vercel.json` publishes th
 - Visual design: `public/styles.css`
 - Mobile menu and copyright year: `public/script.js`
 - Profile photograph: `public/profile.jpg`
-
-The downloadable CV is intentionally not included because the source PDF contains private contact information. Add a public, privacy-reviewed PDF later if desired.
