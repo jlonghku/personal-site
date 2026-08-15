@@ -6,8 +6,8 @@ The site is available in English and Simplified Chinese, with a language switch 
 
 ## Live sites
 
-- Vercel: `https://long-jiang-academic-site.vercel.app/`
-- GitHub Pages: `https://jlonghku.github.io/personal-site/`
+- [Vercel](https://long-jiang-academic-site.vercel.app/)
+- [GitHub Pages](https://jlonghku.github.io/personal-site/)
 
 Both deployments publish the same files from `public/`. Vercel deploys through the linked project, while GitHub Pages deploys through `.github/workflows/pages.yml` after changes reach `main`.
 
