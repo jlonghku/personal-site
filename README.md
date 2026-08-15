@@ -29,4 +29,3 @@ Import this GitHub repository in Vercel. The included `vercel.json` publishes th
 - Main content: `public/index.html`
 - Visual design: `public/styles.css`
 - Mobile menu and copyright year: `public/script.js`
-- Profile photograph: `public/profile.jpg`
