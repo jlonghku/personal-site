@@ -1,0 +1,12 @@
+app
+build
+db
+drizzle
+examples
+tests
+tmp
+worker
+.openai
+*.ts
+*.mjs
+package*.json

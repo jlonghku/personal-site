@@ -1,0 +1,10 @@
+# Local system files
+.DS_Store
+*.pem
+
+# Local configuration and deployment state
+.env*
+.vercel
+
+# Temporary files
+tmp/
