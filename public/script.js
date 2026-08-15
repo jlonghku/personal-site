@@ -1,10 +1,12 @@
 const menuButton = document.querySelector(".menu-button");
 const mobileNav = document.querySelector(".mobile-nav");
+const menuOpenLabel = menuButton?.dataset.openLabel || "Menu";
+const menuCloseLabel = menuButton?.dataset.closeLabel || "Close";
 
 menuButton?.addEventListener("click", () => {
   const isOpen = menuButton.getAttribute("aria-expanded") === "true";
   menuButton.setAttribute("aria-expanded", String(!isOpen));
-  menuButton.textContent = isOpen ? "Menu" : "Close";
+  menuButton.textContent = isOpen ? menuOpenLabel : menuCloseLabel;
   mobileNav.hidden = isOpen;
   document.body.style.overflow = isOpen ? "" : "hidden";
 });
@@ -12,7 +14,7 @@ menuButton?.addEventListener("click", () => {
 mobileNav?.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", () => {
     menuButton.setAttribute("aria-expanded", "false");
-    menuButton.textContent = "Menu";
+    menuButton.textContent = menuOpenLabel;
     mobileNav.hidden = true;
     document.body.style.overflow = "";
   });
