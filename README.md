@@ -4,6 +4,13 @@ Personal academic website for Dr Long Jiang, Research Assistant Professor in the
 
 The site is available in English and Simplified Chinese, with a language switch in the header.
 
+## Live sites
+
+- Vercel: `https://long-jiang-academic-site.vercel.app/`
+- GitHub Pages: `https://jlonghku.github.io/personal-site/`
+
+Both deployments publish the same files from `public/`. Vercel deploys through the linked project, while GitHub Pages deploys through `.github/workflows/pages.yml` after changes reach `main`.
+
 ## Highlights
 
 - Research themes in ecohydrological modelling, urban flooding, water quality, and environmental AI
